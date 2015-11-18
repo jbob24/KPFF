@@ -1,0 +1,152 @@
+<%@ Master Language="C#" CodeBehind="~/MyAccount/BQReportMaster.master.cs" Inherits="KPFF.PMP.MyAccount.BQReportMaster" AutoEventWireup="True" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="cphTitle" runat="server">
+        </asp:ContentPlaceHolder>
+    </title>
+    <link rel="Shortcut Icon" href="../images/favicon.ico" />
+    <script src="../_scripts/jquery-1.4.2.min.js" type="text/javascript"></script>
+    <script src="../_scripts/jquery-ui-1.8.7.custom.min.js" type="text/javascript"></script>
+    <link href="../jquery-ui-1.8.13.custom.css" rel="Stylesheet" type="text/css" />
+    <script src="../_scripts/json2.js" type="text/javascript"></script>
+    <script src="../_scripts/jquery.tablescroll.js" type="text/javascript"></script>
+    <%--<link href="../_scripts/jquery.tablescroll.css" rel="stylesheet" media="screen" />--%>
+    <asp:ContentPlaceHolder ID="cphMetaTags" runat="server">
+    </asp:ContentPlaceHolder>
+    <!-- Include master style sheet -->
+    <link href="../style.css" rel="stylesheet" media="screen" />
+    <script type="text/javascript" src="../_scripts/CSScriptLib.js"></script>
+    <%--    <script src="../_scripts/jquery-1.4.2.min.js" type="text/javascript"></script>--%>
+    <script type="text/javascript">
+        var win = null;
+        function NewWindow(mypage, myname, w, h, scroll, pos, menubar) {
+            if (pos == "random") { LeftPosition = (screen.width) ? Math.floor(Math.random() * (screen.width - w)) : 100; TopPosition = (screen.height) ? Math.floor(Math.random() * ((screen.height - h) - 75)) : 100; }
+            if (pos == "center") { LeftPosition = (screen.width) ? (screen.width - w) / 2 : 100; TopPosition = (screen.height) ? (screen.height - h) / 2 : 100; }
+            else if ((pos != "center" && pos != "random") || pos == null) { LeftPosition = 0; TopPosition = 20 }
+            settings = 'width=' + w + ',height=' + h + ',top=' + TopPosition + ',left=' + LeftPosition + ',scrollbars=' + scroll + ',location=no,directories=no,status=no,menubar=' + menubar + ',toolbar=no,resizable=no';
+            win = window.open(mypage, myname, settings);
+        }
+
+        var preloadFlag = false;
+        function preloadImages() {
+            if (document.images) {
+                pre_schedule_on = newImage('images/nav/projects_on.gif');
+                pre_schedule_on = newImage('images/nav/schedule_on.gif');
+                pre_schedule_on = newImage('images/nav/activeprojects_on.png');
+                pre_schedule_on = newImage('images/nav/engineers_on.gif');
+                pre_schedule_on = newImage('images/nav/summary_on.gif');
+                pre_schedule_on = newImage('images/nav/divide_off.gif');
+                pre_schedule_on = newImage('images/nav/divide_on_lt.gif');
+                pre_schedule_on = newImage('images/nav/divide_on_rt.gif');
+                pre_schedule_on = newImage('images/nav/left_divide_on.gif');
+                pre_schedule_on = newImage('images/nav/left_divide_off.gif');
+                preloadFlag = true;
+            }
+        }
+
+        var sURL = unescape(window.location.href);
+        function childClose() {
+            window.focus();
+            window.location.href = sURL;
+        }
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var loc;
+
+            if (window.location.toString().indexOf("?", 0) > 0) {
+                loc = window.location.toString().split("?")[0].split("/");
+            }
+            else {
+                loc = window.location.toString().split("/")
+            }
+            loc = loc[loc.length - 1]
+            $("#main_navigation li a[href=\"" + loc.toLowerCase() + "\"]").addClass("selected");
+        });
+    </script>
+    <script type="text/javascript">
+        var displayUnassignError = false;
+        $(document).ready(function () {
+            if (displayUnassignError == true) {
+                displayUnassignError = false;
+                alert("Unable to unassign a project with future hours assigned. Delete or reassign future hours before unassigning.");
+                //$(location).attr('href', window.location.pathname);
+            }
+        });
+    </script>
+</head>
+<body onload="preloadImages(); defaultStatus='Copyright ©2006 - XXXX. All Rights Reserved.';return true"
+    text="#000000" link="#000000" vlink="#000000" alink="#000000" marginheight="0"
+    marginwidth="0" leftmargin="0" topmargin="0">
+    <form id="form1" runat="server">
+    <table style="height: 80px" width="1005px" border="0" cellpadding="0" cellspacing="0">
+        <tr style="height: 12px">
+            <td rowspan="2" colspan="2" style="width: 175;" valign="bottom">
+                <img src="images/nav/logo_upper.gif" border="0" alt="" style="margin: 0;" />
+            </td>
+            <td colspan="3">
+                <img src="images/spacer.gif" width="830" height="12" border="0" alt="" />
+            </td>
+        </tr>
+        <tr style="height: 35px">
+            <td background="images/template/header_fade.jpg">
+                <div class="title">
+                    Project Management Planner</div>
+            </td>
+            <td background="images/template/header_fade2.jpg" align="right" style="min-width: 150px">
+                <div class="login">
+                    user: <b>
+                        <%Response.Write(Session["UserName"]);%></b> | <a href="../index.htm">Logout</a></div>
+            </td>
+            <td>
+                <img src="images/template/header_end.gif" border="0" alt="" />
+            </td>
+        </tr>
+        <tr style="height: 33px">
+            <td style="width: 153;" valign="top">
+                <img src="images/nav/logo_middle.gif" width="153" border="0" alt="" />
+            </td>
+            <td style="width: 22;" valign="top">
+                <img src="images/nav/left_divide_off.gif" name="div_1" id="div_1" width="22" border="0"
+                    alt="" />
+            </td>
+            <td colspan="3" valign="top">
+                <div id="main_navigation">
+                    <ul>
+                        <li class="firstlink"><a href="myprojects.aspx">my projects</a></li>
+                        <li><a href="myschedule.aspx">my schedule</a></li>
+                        <li><a href="projects.aspx">all projects</a></li>
+                        <%--                        <li><a href="projects.aspx">active projects</a></li>
+                        <li><a href="archivedprojects.aspx">archived projects</a></li>--%>
+                        <li><a href="allengineers.aspx">all engineers</a></li>
+                        <li><a href="officesummary.aspx">office summary</a></li>
+                        <li><a href="fiscalsummary.aspx" id="fiscalSummary" >fiscal summary</a></li>
+                    </ul>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+        <tr>
+            <td bgcolor="#FFFFFF">
+                <img src="images/spacer.gif" width="10" height="1" border="0" alt="" />
+            </td>
+            <td height="100%" valign="top">
+                <asp:ContentPlaceHolder ID="cphMainContent" runat="server" />
+            </td>
+        </tr>
+    </table>
+    </form>
+    <asp:ContentPlaceHolder ID="cphFooterContent" runat="server" />
+    <script type="text/javascript">
+        $(document).ready(function () {
+            if (displayFiscalSummary == "False") {
+                $('#fiscalSummary').hide();
+            }
+        });
+    </script>
+</body>
+</html>

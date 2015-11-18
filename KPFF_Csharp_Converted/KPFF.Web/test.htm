@@ -1,0 +1,243 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-loose.dtd"> 
+<html> 
+<head> 
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" /> 
+<title>Lock Table Headings - Sort Table</title> 
+<style type='text/css'> 
+ 
+/* Scrollable Content Height */
+.scrollContent {
+ height:100px;
+ overflow-x:hidden;
+ overflow-y:auto;
+}
+ 
+.scrollContent tr {
+ height: auto;
+ white-space: nowrap;
+}
+ 
+/* Prevent Mozilla scrollbar from hiding right-most cell content */
+.scrollContent tr td:last-child {
+ padding-right: 20px;
+}
+ 
+/* Fixed Header Height */
+.fixedHeader tr {
+ position: relative;
+ height: auto;
+ /* this fixes IE header jumping bug when mousing over rows in the tbody */
+ top: expression( this.parentNode.parentNode.parentNode.scrollTop + 'px' );
+}
+ 
+/* Put border around entire table */
+div.TableContainer {
+ border: 1px solid #7DA87D;
+ overflow-y:auto;
+}
+ 
+/* Table Header formatting */
+.headerFormat {
+ background-color: white;
+ color: #FFFFFF;
+ margin: 3px;
+ padding: 1px;
+ white-space: nowrap;
+ font-family: Helvetica;
+ font-size: 16px;
+ text-decoration: none;
+ font-weight: bold;
+}
+
+ 
+
+
+</style> 
+
+ 
+
+ 
+</head> 
+<body> 
+ 
+Lock Table Headings: Scroll up and down or click on the column titles to sort the table.  Easy to use.  Tested to work in IE7 and Firefox <br /> 
+<br /> 
+ 
+<table cellpadding="0" cellspacing="0" border="0"><tr><td><div id="TableContainer" class="TableContainer" style="height:230px;"> 
+ 
+ <table class="scrollTable"> 
+  <thead class="fixedHeader headerFormat"> 
+      <tr class="title"> 
+       <td class="point" onclick="GoTop(); sortTable(this,1); HoverRow();" title="Sort"><b>NAME</b> <img src="none.gif" border="0" /></td> 
+       <td class="point" onclick="GoTop(); sortTable(this,1); HoverRow();" title="Sort" align="right"><b>Amt</b> <img src="none.gif" border="0" /></td> 
+       <td class="point" onclick="GoTop(); sortTable(this,1); HoverRow();" title="Sort" align="right"><b>Lvl</b> <img src="none.gif" border="0" /></td> 
+       <td class="point" onclick="GoTop(); sortTable(this,1); HoverRow();" title="Sort" align="right"><b>Rank</b> <img src="none.gif" border="0" /></td> 
+       <td class="point" onclick="GoTop(); sortTable(this,1); HoverRow();" title="Sort"><b>Position</b> <img src="none.gif" border="0" /></td> 
+       <td class="point" onclick="GoTop(); sortTable(this,1); HoverRow();" title="Sort" align="center"><b>Date</b> <img src="none.gif" border="0" /></td> 
+      </tr> 
+  </thead> 
+  <tbody class="scrollContent bodyFormat" style="height:200px;"> 
+      <tr class="alternateRow"> 
+       <td>Maha</td> 
+       <td align="right">$19,923.19</td> 
+       <td align="right">100</td> 
+       <td align="right">100</td> 
+       <td>Owner</td> 
+       <td align="right">01/02/2001</td> 
+      </tr> 
+      <tr> 
+       <td>Thrawl</td> 
+       <td align="right">$9,550</td> 
+       <td align="right">159</td> 
+       <td align="right">100%</td> 
+       <td>Co-Owner</td> 
+       <td align="right">11/07/2003</td> 
+      </tr> 
+      <tr class="alternateRow"> 
+       <td>Marhanen</td> 
+       <td align="right">$223.04</td> 
+       <td align="right">83</td> 
+       <td align="right">99%</td> 
+       <td>Banker</td> 
+       <td align="right">06/27/2006</td> 
+      </tr> 
+      <tr> 
+       <td>Peter</td> 
+       <td align="right">$121</td> 
+       <td align="right">567</td> 
+       <td align="right">23423%</td> 
+       <td>FishHead</td> 
+       <td align="right">06/06/2006</td> 
+      </tr> 
+      <tr class="alternateRow"> 
+       <td>Jones</td> 
+       <td align="right">$15</td> 
+       <td align="right">11</td> 
+       <td align="right">15%</td> 
+       <td>Bubba</td> 
+       <td align="right">10/27/2005</td> 
+      </tr> 
+      <tr> 
+       <td>Supa-De-Dupa</td> 
+       <td align="right">$145</td> 
+       <td align="right">91</td> 
+       <td align="right">32%</td> 
+       <td>momma</td> 
+       <td align="right">12/15/1996</td> 
+      </tr> 
+      <tr class="alternateRow"> 
+       <td>ClickClock</td> 
+       <td align="right">$1,213</td> 
+       <td align="right">23</td> 
+       <td align="right">1%</td> 
+       <td>Dada</td> 
+       <td align="right">1/30/1998</td> 
+      </tr> 
+      <tr> 
+       <td>Mrs. Robinson</td> 
+       <td align="right">$99</td> 
+       <td align="right">99</td> 
+       <td align="right">99%</td> 
+       <td>Wife</td> 
+       <td align="right">07/04/1963</td> 
+      </tr> 
+      <tr class="alternateRow"> 
+       <td>Maha</td> 
+       <td align="right">$19,923.19</td> 
+       <td align="right">100</td> 
+       <td align="right">100%</td> 
+       <td>Owner</td> 
+       <td align="right">01/02/2001</td> 
+      </tr> 
+      <tr> 
+       <td>Thrawl</td> 
+       <td align="right">$9,550</td> 
+       <td align="right">159</td> 
+       <td align="right">100%</td> 
+       <td>Co-Owner</td> 
+       <td align="right">11/07/2003</td> 
+      </tr> 
+      <tr class="alternateRow"> 
+       <td>Marhanen</td> 
+       <td align="right">$223.04</td> 
+       <td align="right">83</td> 
+       <td align="right">59%</td> 
+       <td>Banker</td> 
+       <td align="right">06/27/2006</td> 
+      </tr> 
+      <tr> 
+       <td>Peter</td> 
+       <td align="right">$121</td> 
+       <td align="right">567</td> 
+       <td align="right">534.23%</td> 
+       <td>FishHead</td> 
+       <td align="right">06/06/2006</td> 
+      </tr> 
+      <tr class="alternateRow"> 
+       <td>Jones</td> 
+       <td align="right">$15</td> 
+       <td align="right">11</td> 
+       <td align="right">15%</td> 
+       <td>Bubba</td> 
+       <td align="right">10/27/2005</td> 
+      </tr> 
+      <tr> 
+       <td>Supa-De-Dupa</td> 
+       <td align="right">$145</td> 
+       <td align="right">91</td> 
+       <td align="right">42%</td> 
+       <td>momma</td> 
+       <td align="right">12/15/1996</td> 
+      </tr> 
+      <tr class="alternateRow"> 
+       <td>ClickClock</td> 
+       <td align="right">$1,213</td> 
+       <td align="right">23</td> 
+       <td align="right">2%</td> 
+       <td>Dada</td> 
+       <td align="right">1/30/1998</td> 
+      </tr> 
+      <tr> 
+       <td>Mrs. Robinson</td> 
+       <td align="right">$99</td> 
+       <td align="right">99</td> 
+       <td align="right">(-10.42%)</td> 
+       <td>Wife</td> 
+       <td align="right">07/04/1963</td> 
+      </tr> 
+      <tr class="alternateRow"> 
+       <td>Maha</td> 
+       <td align="right">-$19,923.19</td> 
+       <td align="right">100</td> 
+       <td align="right">(-10.01%)</td> 
+       <td>Owner</td> 
+       <td align="right">01/02/2001</td> 
+      </tr> 
+      <tr> 
+       <td>Thrawl</td> 
+       <td align="right">$9,550</td> 
+       <td align="right">159</td> 
+       <td align="right">-10.20%</td> 
+       <td>Co-Owner</td> 
+       <td align="right">11/07/2003</td> 
+      </tr> 
+      <tr class="total"> 
+       <td><strong>TOTAL</strong>:</td> 
+       <td align="right"><strong>999999</strong></td> 
+       <td align="right"><strong>9999999</strong></td> 
+       <td align="right"><strong>99</strong></td> 
+       <td >&nbsp;</td> 
+       <td align="right">&nbsp;</td> 
+      </tr> 
+  </tbody> 
+ </table> 
+ 
+</div></td></tr></table> 
+ 
+</body> 
+</html>
+
+
+
+

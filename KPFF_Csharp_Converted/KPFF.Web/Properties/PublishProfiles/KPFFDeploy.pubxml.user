@@ -1,0 +1,887 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile>2012-11-01T20:38:06.0807435-07:00</TimeStampOfAssociatedLegacyPublishXmlFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="base.css">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="bin/App_Licenses.dll">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="bin/Infragistics2.WebUI.Shared.v6.1.dll">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="bin/Infragistics2.WebUI.UltraWebGrid.v6.1.dll">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="bin/Infragistics2.WebUI.WebCombo.v6.1.dll">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="bin/Infragistics2.WebUI.WebDateChooser.v6.1.dll">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="bin/KPFF.PMP.dll">
+      <publishTime>07/24/2013 23:32:35</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="defaultTheme.css">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="Error.aspx">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="HoursBox/1292570091_small-tiles.png">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="HoursBox/bg_offwhite2_br.png">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="HoursBox/fixedhead.js">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="HoursBox/HourBox.ascx">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="HoursBox/HourBox.css">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="HoursBox/HourBox.js">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="HoursBox/jquery.EditHourbox.js">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="HoursBox/jquery.fixheadertable.min.js">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="HoursBox/jquery.fixheadertable_custom.js">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="HoursBox/jquery.hourbox.js">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="HoursBox/jquery.HourBox2.js">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="HoursBox/jquery.MultiColSort.js">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="HoursBox/jquery.sortable.js">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="HoursBox/NonEditableHourBox.js">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="HoursBox/nonSelectableList.css">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="HoursBox/picker1.png">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="HoursBox/picker2.png">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="HoursBox/picker3.png">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="HoursBox/picker4.png">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="HoursBox/projectList.css">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="HoursBox/scrollableTable.js">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="HoursBox/tableSearch.js">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="HTMLPage.htm">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="images/Arrow.jpg">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="images/favicon.ico">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="images/favorite.png">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="images/GridLegend.jpg">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="images/header.jpg">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="images/icon_hard_hat.gif">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="images/KPFF 3D Contact.bmp">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="images/KPFF-FutureLogo-FNL.jpg">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="images/MinusBox.jpg">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="images/nav/logo_bottom2.gif">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="images/Over.jpg">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="images/PlusBox.jpg">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="images/PMP.png">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="images/Scheduled.jpg">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="images/spacer.gif">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="images/Ten25.jpg">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="images/ui-bg_flat_30_cccccc_40x100.png">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="images/ui-bg_flat_50_5c5c5c_40x100.png">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="images/ui-bg_glass_20_555555_1x400.png">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="images/ui-bg_glass_40_0078a3_1x400.png">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="images/ui-bg_glass_40_ffc73d_1x400.png">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="images/ui-bg_gloss-wave_25_333333_500x100.png">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="images/ui-bg_highlight-soft_80_eeeeee_1x100.png">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="images/ui-bg_inset-soft_25_000000_1x100.png">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="images/ui-bg_inset-soft_30_f58400_1x100.png">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="images/ui-icons_222222_256x240.png">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="images/ui-icons_4b8e0b_256x240.png">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="images/ui-icons_a83300_256x240.png">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="images/ui-icons_cccccc_256x240.png">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="images/ui-icons_ffffff_256x240.png">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="images/Under.jpg">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="index.htm">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="jquery-ui-1.8.13.custom.css">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="LookupGridsStyleSheet.css">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="MyAccount/AllEngineers.aspx">
+      <publishTime>07/22/2013 22:56:51</publishTime>
+    </File>
+    <File Include="MyAccount/AllEngineersPrint.aspx">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="MyAccount/AllEngineers_PrintList.aspx">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="MyAccount/ArchivedProjects.aspx">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="MyAccount/BQReportMaster.master">
+      <publishTime>07/23/2013 22:32:21</publishTime>
+    </File>
+    <File Include="MyAccount/bulletinboard.aspx">
+      <publishTime>07/23/2013 22:31:49</publishTime>
+    </File>
+    <File Include="MyAccount/DisplayGroup.aspx">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="MyAccount/DisplayGroup_v3.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/EmployeeDetail.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/EmployeeDetail_Print.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/FiscalSummary.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/igsch_left_arrow.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/igsch_right_arrow.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/nav/activeprojects_off.jpg">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/nav/activeprojects_off.png">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/nav/activeprojects_on.png">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/nav/allprojects_off.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/nav/allprojects_on.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/nav/allprojects_over.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/nav/divide_off.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/nav/divide_on_lt.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/nav/divide_on_rt.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/nav/engineers_off.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/nav/engineers_on.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/nav/engineers_over.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/nav/left_divide_off.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/nav/left_divide_on.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/nav/logo_bottom.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/nav/logo_bottom2.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/nav/logo_middle.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/nav/logo_upper.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/nav/navbar_bgfill.png">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/nav/navbar_bgfill2.png">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/nav/navbar_hover_bgfill.png">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/nav/Over.jpg">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/nav/projects_off.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/nav/projects_on.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/nav/projects_over.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/nav/schedule_off.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/nav/schedule_on.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/nav/schedule_over.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/nav/summary_off.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/nav/summary_on.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/nav/summary_over.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/spacer.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/template/header_end.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/template/header_fade.jpg">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/template/header_fade1v2.jpg">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/template/header_fade1v2.png">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/template/header_fade2.jpg">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/images/template/logo.jpg">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/MyProjects.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/MyProjects_Print.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/MySchedule.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/MySchedule_Print.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/nav/activeprojects_off.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/nav/activeprojects_off.png">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/nav/activeprojects_on.png">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/nav/allprojects_off.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/nav/allprojects_on.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/nav/bottomline.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/nav/divide_off.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/nav/divide_on_lt.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/nav/divide_on_rt.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/nav/engineers_off.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/nav/engineers_on.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/nav/left_divide_off.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/nav/left_divide_on.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/nav/logo_bottom.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/nav/logo_middle.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/nav/logo_upper.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/nav/projects_off.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/nav/projects_on.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/nav/schedule_off.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/nav/schedule_on.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/nav/summary_off.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/nav/summary_on.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/OfficeSummary.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/PageTemplate.master">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/ProjectDetail.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/ProjectDetailAdd.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/ProjectDetailEdit.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/ProjectDetail_Print.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/Projects.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/ProjectsPrint.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/Projects_PrintList.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/spacer.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/template/header_end.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/template/header_fade.jpg">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/template/header_fade2.jpg">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/template/logo.jpg">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAccount/_BlankPage.aspx">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="MyAccount/_TemplateMaster.master">
+      <publishTime>07/23/2013 22:17:22</publishTime>
+    </File>
+    <File Include="MyAdmin/AllEngineers.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/AllEngineersPrint.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/AllEngineers_PrintList.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/ClientAdd.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/ClientEdit.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/Clients.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/ClientTypes.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/EditEmployees.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/EmployeeAdd.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/EmployeeDetail.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/EmployeeDetail_Print.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/EmployeeEdit.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/Employees.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/EmployeeTypes.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/EngineerGroupEdit.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/EngineerGroups.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/FeeStructures.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/igsch_left_arrow.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/igsch_right_arrow.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/nav/admin_off.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/nav/admin_on.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/nav/admin_over.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/nav/allprojects_off.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/nav/allprojects_on.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/nav/allprojects_over.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/nav/divide_off.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/nav/divide_on_lt.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/nav/divide_on_rt.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/nav/engineers_off.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/nav/engineers_on.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/nav/engineers_over.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/nav/left_divide_off.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/nav/left_divide_on.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/nav/logo_bottom.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/nav/logo_middle.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/nav/logo_upper.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/nav/projects_off.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/nav/projects_on.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/nav/projects_over.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/nav/schedule_off.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/nav/schedule_on.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/nav/schedule_over.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/nav/summary_off.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/nav/summary_on.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/nav/summary_over.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/spacer.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/subNav/logo_bottom.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/subNav/subNav_bkgd.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/subNav/subNav_bottom.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/subNav/subNav_top.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/template/header_end.gif">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/template/header_fade.jpg">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/template/header_fade2.jpg">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/images/template/logo.jpg">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/MyAdmin.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/OfficeSummary.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/Phases.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/ProjectDetail.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/ProjectDetailAdd.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/ProjectDetailEdit.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/ProjectDetail_Print.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/Projects.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/ProjectsPrint.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/ProjectStatus.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/Projects_PrintList.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/_BlankPage.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/_GlobalUtility.ascx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/_TemplateMaster.master">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="MyAdmin/_TemplateMasterNoSub.master">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="scrollableTable.css">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="Service/Service1.svc">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="ServiceTest.aspx">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="style.css">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="style_print.css">
+      <publishTime>10/28/2012 09:48:28</publishTime>
+    </File>
+    <File Include="test.aspx">
+      <publishTime>10/28/2012 09:48:30</publishTime>
+    </File>
+    <File Include="test.htm">
+      <publishTime>10/28/2012 09:48:30</publishTime>
+    </File>
+    <File Include="Themes/jquery-ui-1.8.21.custom/css/custom-theme/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>10/28/2012 09:48:30</publishTime>
+    </File>
+    <File Include="Themes/jquery-ui-1.8.21.custom/css/custom-theme/images/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>10/28/2012 09:48:30</publishTime>
+    </File>
+    <File Include="Themes/jquery-ui-1.8.21.custom/css/custom-theme/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>10/28/2012 09:48:30</publishTime>
+    </File>
+    <File Include="Themes/jquery-ui-1.8.21.custom/css/custom-theme/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>10/28/2012 09:48:30</publishTime>
+    </File>
+    <File Include="Themes/jquery-ui-1.8.21.custom/css/custom-theme/images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>10/28/2012 09:48:30</publishTime>
+    </File>
+    <File Include="Themes/jquery-ui-1.8.21.custom/css/custom-theme/images/ui-bg_glass_75_ffffff_1x400.png">
+      <publishTime>10/28/2012 09:48:30</publishTime>
+    </File>
+    <File Include="Themes/jquery-ui-1.8.21.custom/css/custom-theme/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>10/28/2012 09:48:30</publishTime>
+    </File>
+    <File Include="Themes/jquery-ui-1.8.21.custom/css/custom-theme/images/ui-bg_inset-soft_95_fef1ec_1x100.png">
+      <publishTime>10/28/2012 09:48:30</publishTime>
+    </File>
+    <File Include="Themes/jquery-ui-1.8.21.custom/css/custom-theme/images/ui-icons_222222_256x240.png">
+      <publishTime>10/28/2012 09:48:30</publishTime>
+    </File>
+    <File Include="Themes/jquery-ui-1.8.21.custom/css/custom-theme/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>10/28/2012 09:48:30</publishTime>
+    </File>
+    <File Include="Themes/jquery-ui-1.8.21.custom/css/custom-theme/images/ui-icons_454545_256x240.png">
+      <publishTime>10/28/2012 09:48:30</publishTime>
+    </File>
+    <File Include="Themes/jquery-ui-1.8.21.custom/css/custom-theme/images/ui-icons_888888_256x240.png">
+      <publishTime>10/28/2012 09:48:30</publishTime>
+    </File>
+    <File Include="Themes/jquery-ui-1.8.21.custom/css/custom-theme/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>10/28/2012 09:48:30</publishTime>
+    </File>
+    <File Include="Themes/jquery-ui-1.8.21.custom/css/custom-theme/jquery-ui-1.8.21.custom.css">
+      <publishTime>10/28/2012 09:48:30</publishTime>
+    </File>
+    <File Include="UserControls/EditableEngineerList.ascx">
+      <publishTime>10/28/2012 09:48:30</publishTime>
+    </File>
+    <File Include="UserControls/EditableEngineerProjectList.ascx">
+      <publishTime>10/28/2012 09:48:30</publishTime>
+    </File>
+    <File Include="UserControls/EngineerDetail.ascx">
+      <publishTime>10/28/2012 09:48:30</publishTime>
+    </File>
+    <File Include="UserControls/EngineerList.ascx">
+      <publishTime>10/28/2012 09:48:30</publishTime>
+    </File>
+    <File Include="UserControls/ProjectList.ascx">
+      <publishTime>10/28/2012 09:48:30</publishTime>
+    </File>
+    <File Include="UserControls/ReportClientsGrid.ascx">
+      <publishTime>10/28/2012 09:48:30</publishTime>
+    </File>
+    <File Include="UserControls/ReportPICsGrid.ascx">
+      <publishTime>10/28/2012 09:48:30</publishTime>
+    </File>
+    <File Include="UserControls/ReportPMsGrid.ascx">
+      <publishTime>10/28/2012 09:48:30</publishTime>
+    </File>
+    <File Include="UserControls/ReportProjectsGrid.ascx">
+      <publishTime>10/28/2012 09:48:30</publishTime>
+    </File>
+    <File Include="UWGStyleSheet.css">
+      <publishTime>10/28/2012 09:48:30</publishTime>
+    </File>
+    <File Include="UWGStyleSheet_Print.css">
+      <publishTime>10/28/2012 09:48:30</publishTime>
+    </File>
+    <File Include="wdtStyleSheet.css">
+      <publishTime>10/28/2012 09:48:30</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/24/2013 23:32:37</publishTime>
+    </File>
+    <File Include="_scripts/arrow_down.png">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="_scripts/AutoComplete.js">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="_scripts/cancel.png">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="_scripts/center.js">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="_scripts/confirm.js">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="_scripts/CSScriptLib.js">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="_scripts/EnterToTab.js">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="_scripts/jquery-1.4.2.min.js">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="_scripts/jquery-ui-1.8.7.custom.min.js">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="_scripts/jquery.dataTables.js">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="_scripts/jquery.dataTables.min.js">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="_scripts/jquery.engineerdetails.js">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="_scripts/jquery.hyjack.select.js">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="_scripts/jquery.tablescroll.css">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="_scripts/jquery.tablescroll.js">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="_scripts/jquery.tablesorter.js">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="_scripts/jquery.tablesorter.min.js">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="_scripts/jquery.ui.core.js">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="_scripts/jquery.ui.draggable.js">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="_scripts/jquery.ui.droppable.js">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="_scripts/jquery.ui.mouse.js">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="_scripts/jquery.ui.widget.js">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="_scripts/json2.js">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="_scripts/KPFF.js">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="_scripts/ListSearch.js">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+    <File Include="_scripts/sortable.js">
+      <publishTime>10/28/2012 09:48:26</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

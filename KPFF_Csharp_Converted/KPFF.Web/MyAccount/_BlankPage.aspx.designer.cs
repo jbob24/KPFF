@@ -1,0 +1,1 @@
+namespace KPFF.PMP.MyAccount { public partial class _BlankPage { }}

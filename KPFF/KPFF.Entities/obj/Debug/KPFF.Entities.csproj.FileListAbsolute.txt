@@ -1,0 +1,10 @@
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF\KPFF.Entities\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF\KPFF.Entities\bin\Debug\KPFF.Entities.dll
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF\KPFF.Entities\bin\Debug\KPFF.Entities.pdb
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF\KPFF.Entities\obj\Debug\KPFF.Entities.dll
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF\KPFF.Entities\obj\Debug\KPFF.Entities.pdb
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF_C#\KPFF\KPFF.Entities\bin\Debug\KPFF.Entities.dll
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF_C#\KPFF\KPFF.Entities\bin\Debug\KPFF.Entities.pdb
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF_C#\KPFF\KPFF.Entities\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF_C#\KPFF\KPFF.Entities\obj\Debug\KPFF.Entities.dll
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF_C#\KPFF\KPFF.Entities\obj\Debug\KPFF.Entities.pdb

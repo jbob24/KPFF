@@ -1,0 +1,13 @@
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF_C#\KPFF\KPFF.MVCWeb\bin\KPFF.MVCWeb.dll
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF_C#\KPFF\KPFF.MVCWeb\bin\KPFF.MVCWeb.pdb
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF_C#\KPFF\KPFF.MVCWeb\bin\EntityFramework.dll
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF_C#\KPFF\KPFF.MVCWeb\bin\KPFF.Business.dll
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF_C#\KPFF\KPFF.MVCWeb\bin\KPFF.Entities.dll
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF_C#\KPFF\KPFF.MVCWeb\bin\KPFF.Data.dll
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF_C#\KPFF\KPFF.MVCWeb\bin\KPFF.Business.pdb
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF_C#\KPFF\KPFF.MVCWeb\bin\KPFF.Entities.pdb
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF_C#\KPFF\KPFF.MVCWeb\bin\EntityFramework.xml
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF_C#\KPFF\KPFF.MVCWeb\bin\KPFF.Data.pdb
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF_C#\KPFF\KPFF.MVCWeb\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF_C#\KPFF\KPFF.MVCWeb\obj\Debug\KPFF.MVCWeb.dll
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF_C#\KPFF\KPFF.MVCWeb\obj\Debug\KPFF.MVCWeb.pdb

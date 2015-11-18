@@ -1,0 +1,14 @@
+c:\users\joe\documents\visual studio 2010\Projects\KPFF\KPFF.Data\obj\Debug\ResolveAssemblyReference.cache
+c:\users\joe\documents\visual studio 2010\Projects\KPFF\KPFF.Data\bin\Debug\KPFF.Data.dll
+c:\users\joe\documents\visual studio 2010\Projects\KPFF\KPFF.Data\bin\Debug\KPFF.Data.pdb
+c:\users\joe\documents\visual studio 2010\Projects\KPFF\KPFF.Data\obj\Debug\KPFF.Data.dll
+c:\users\joe\documents\visual studio 2010\Projects\KPFF\KPFF.Data\obj\Debug\KPFF.Data.pdb
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF\KPFF.Data\bin\Debug\KPFF.Entities.dll
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF\KPFF.Data\bin\Debug\KPFF.Entities.pdb
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF_C#\KPFF\KPFF.Data\bin\Debug\KPFF.Data.dll
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF_C#\KPFF\KPFF.Data\bin\Debug\KPFF.Data.pdb
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF_C#\KPFF\KPFF.Data\bin\Debug\KPFF.Entities.dll
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF_C#\KPFF\KPFF.Data\bin\Debug\KPFF.Entities.pdb
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF_C#\KPFF\KPFF.Data\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF_C#\KPFF\KPFF.Data\obj\Debug\KPFF.Data.dll
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF_C#\KPFF\KPFF.Data\obj\Debug\KPFF.Data.pdb

@@ -1,0 +1,12 @@
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF_C#\KPFF_Csharp_Converted\KPFF.Web\bin\KPFF.PMP.dll
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF_C#\KPFF_Csharp_Converted\KPFF.Web\bin\KPFF.PMP.pdb
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF_C#\KPFF_Csharp_Converted\KPFF.Web\obj\Release\ResolveAssemblyReference.cache
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF_C#\KPFF_Csharp_Converted\KPFF.Web\obj\Release\KPFF.PMP.dll.licenses
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF_C#\KPFF_Csharp_Converted\KPFF.Web\obj\Release\KPFF.PMP.dll
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF_C#\KPFF_Csharp_Converted\KPFF.Web\obj\Release\KPFF.PMP.pdb
+C:\DevelopmentProjects\Code\KPFF_C#\KPFF_Csharp_Converted\KPFF.Web\bin\KPFF.PMP.dll
+C:\DevelopmentProjects\Code\KPFF_C#\KPFF_Csharp_Converted\KPFF.Web\bin\KPFF.PMP.pdb
+C:\DevelopmentProjects\Code\KPFF_C#\KPFF_Csharp_Converted\KPFF.Web\obj\Release\KPFF.PMP.dll.licenses
+C:\DevelopmentProjects\Code\KPFF_C#\KPFF_Csharp_Converted\KPFF.Web\obj\Release\KPFF.PMP.dll
+C:\DevelopmentProjects\Code\KPFF_C#\KPFF_Csharp_Converted\KPFF.Web\obj\Release\KPFF.PMP.pdb
+C:\DevelopmentProjects\Code\KPFF_C#\KPFF_Csharp_Converted\KPFF.Web\obj\Release\PMP.Web.csprojResolveAssemblyReference.cache

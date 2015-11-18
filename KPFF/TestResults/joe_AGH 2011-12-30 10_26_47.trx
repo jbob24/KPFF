@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2d856d29-c5db-42f0-baef-4c5e01d72b01" name="joe@AGH 2011-12-30 10:26:47" runUser="AGH\joe" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="36fc17b3-80bb-4bac-91c8-b1d061f2206f">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="joe_AGH 2011-12-30 10_26_47">
+      <DeploymentItem filename="C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF\KPFF.Business\bin\Debug\KPFF.Business.dll" />
+      <DeploymentItem filename="C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF\KPFF.Entities\bin\Debug\KPFF.Entities.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-12-30T10:26:47.2866414-08:00" queuing="2011-12-30T10:26:47.3456448-08:00" start="2011-12-30T10:26:47.4436504-08:00" finish="2011-12-30T10:26:47.8576741-08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetWeekData" storage="c:\users\joe\documents\visual studio 2010\projects\kpff\kpff.test\bin\debug\kpff.test.dll" id="cd0b3f68-b021-bee6-74b7-ddfc323d9ea3">
+      <Execution id="e96670ab-bf9b-4585-af11-5f595493ed5c" />
+      <TestMethod codeBase="C:/Users/joe/Documents/Visual Studio 2010/Projects/KPFF/KPFF.Test/bin/Debug/KPFF.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="KPFF.Test.Week, KPFF.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetWeekData" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="cd0b3f68-b021-bee6-74b7-ddfc323d9ea3" executionId="e96670ab-bf9b-4585-af11-5f595493ed5c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e96670ab-bf9b-4585-af11-5f595493ed5c" testId="cd0b3f68-b021-bee6-74b7-ddfc323d9ea3" testName="GetWeekData" computerName="AGH" duration="00:00:00.0565480" startTime="2011-12-30T10:26:47.4566512-08:00" endTime="2011-12-30T10:26:47.8256723-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e96670ab-bf9b-4585-af11-5f595493ed5c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method KPFF.Test.Week.GetWeekData threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at KPFF.Business.Week.GetWeeks() in C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF\KPFF.Business\Week.cs:line 18
+   at KPFF.Test.Week.GetWeekData() in C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF\KPFF.Test\Week.cs:line 15
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="89c85817-edce-492c-a81d-292cfc8964a7" name="joe@AGH 2012-01-02 10:47:16" runUser="AGH\joe" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="36fc17b3-80bb-4bac-91c8-b1d061f2206f">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="joe_AGH 2012-01-02 10_47_16">
+      <DeploymentItem filename="C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF\KPFF.Business\bin\Debug\KPFF.Business.dll" />
+      <DeploymentItem filename="C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF\KPFF.Entities\bin\Debug\KPFF.Entities.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-01-02T10:47:17.0083987-08:00" queuing="2012-01-02T10:47:19.6525499-08:00" start="2012-01-02T10:47:22.7147251-08:00" finish="2012-01-02T10:47:31.2042106-08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetMark" storage="c:\users\joe\documents\visual studio 2010\projects\kpff\kpff.test\bin\debug\kpff.test.dll" id="ebb2877a-50b5-c812-3d8d-68e540813314">
+      <Execution id="0a2556f2-5095-417f-bed3-7c4f8b5faf12" />
+      <TestMethod codeBase="C:/Users/joe/Documents/Visual Studio 2010/Projects/KPFF/KPFF.Test/bin/Debug/KPFF.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="KPFF.Test.Employee, KPFF.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetMark" />
+    </UnitTest>
+    <UnitTest name="GetWeekData" storage="c:\users\joe\documents\visual studio 2010\projects\kpff\kpff.test\bin\debug\kpff.test.dll" id="cd0b3f68-b021-bee6-74b7-ddfc323d9ea3">
+      <Execution id="51c3b0e2-3b5a-43b3-9faa-890db16e212a" />
+      <TestMethod codeBase="C:/Users/joe/Documents/Visual Studio 2010/Projects/KPFF/KPFF.Test/bin/Debug/KPFF.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="KPFF.Test.Week, KPFF.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetWeekData" />
+    </UnitTest>
+    <UnitTest name="GetEmployeeProjects" storage="c:\users\joe\documents\visual studio 2010\projects\kpff\kpff.test\bin\debug\kpff.test.dll" id="88f138eb-f654-809e-0d61-8a9dbc314e8c">
+      <Execution id="524fe186-54b6-437c-9353-94924780d1e9" />
+      <TestMethod codeBase="C:/Users/joe/Documents/Visual Studio 2010/Projects/KPFF/KPFF.Test/bin/Debug/KPFF.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="KPFF.Test.Employee, KPFF.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetEmployeeProjects" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="88f138eb-f654-809e-0d61-8a9dbc314e8c" executionId="524fe186-54b6-437c-9353-94924780d1e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cd0b3f68-b021-bee6-74b7-ddfc323d9ea3" executionId="51c3b0e2-3b5a-43b3-9faa-890db16e212a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ebb2877a-50b5-c812-3d8d-68e540813314" executionId="0a2556f2-5095-417f-bed3-7c4f8b5faf12" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="524fe186-54b6-437c-9353-94924780d1e9" testId="88f138eb-f654-809e-0d61-8a9dbc314e8c" testName="GetEmployeeProjects" computerName="AGH" duration="00:00:01.4798552" startTime="2012-01-02T10:47:23.2647565-08:00" endTime="2012-01-02T10:47:28.5690599-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="524fe186-54b6-437c-9353-94924780d1e9">
+    </UnitTestResult>
+    <UnitTestResult executionId="51c3b0e2-3b5a-43b3-9faa-890db16e212a" testId="cd0b3f68-b021-bee6-74b7-ddfc323d9ea3" testName="GetWeekData" computerName="AGH" duration="00:00:00.2835570" startTime="2012-01-02T10:47:28.6030619-08:00" endTime="2012-01-02T10:47:28.9040791-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="51c3b0e2-3b5a-43b3-9faa-890db16e212a">
+    </UnitTestResult>
+    <UnitTestResult executionId="0a2556f2-5095-417f-bed3-7c4f8b5faf12" testId="ebb2877a-50b5-c812-3d8d-68e540813314" testName="GetMark" computerName="AGH" duration="00:00:00.2738227" startTime="2012-01-02T10:47:28.9240802-08:00" endTime="2012-01-02T10:47:29.2140968-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0a2556f2-5095-417f-bed3-7c4f8b5faf12">
+    </UnitTestResult>
+  </Results>
+</TestRun>

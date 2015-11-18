@@ -1,0 +1,14 @@
+c:\users\joe\documents\visual studio 2010\Projects\KPFF\KPFF.Web\obj\Debug\ResolveAssemblyReference.cache
+c:\users\joe\documents\visual studio 2010\Projects\KPFF\KPFF.Web\bin\KPFF.Web.dll
+c:\users\joe\documents\visual studio 2010\Projects\KPFF\KPFF.Web\bin\KPFF.Web.pdb
+c:\users\joe\documents\visual studio 2010\Projects\KPFF\KPFF.Web\bin\KPFF.Data.dll
+c:\users\joe\documents\visual studio 2010\Projects\KPFF\KPFF.Web\bin\KPFF.Data.pdb
+c:\users\joe\documents\visual studio 2010\Projects\KPFF\KPFF.Web\obj\Debug\KPFF.Web.dll
+c:\users\joe\documents\visual studio 2010\Projects\KPFF\KPFF.Web\obj\Debug\KPFF.Web.pdb
+c:\users\joe\documents\visual studio 2010\Projects\KPFF\KPFF.Web\bin\Infragistics2.WebUI.WebDateChooser.v6.1.xml
+c:\users\joe\documents\visual studio 2010\Projects\KPFF\KPFF.Web\bin\Infragistics2.WebUI.Shared.v6.1.xml
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF\KPFF.Web\bin\KPFF.Entities.dll
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF\KPFF.Web\bin\KPFF.Entities.pdb
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF_C#\KPFF\KPFF.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF_C#\KPFF\KPFF.Web\obj\Debug\KPFF.Web.dll
+C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF_C#\KPFF\KPFF.Web\obj\Debug\KPFF.Web.pdb

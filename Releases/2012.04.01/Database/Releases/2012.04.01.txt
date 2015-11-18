@@ -1,0 +1,13 @@
+--tables
+tblEngineerGroups.sql
+tblEngineerGroupMembers.sql
+
+-- sprocs
+sp_tblEngineerGroup_GetById.sql
+sp_tblEngineerGroupMembers_GetByGroupId.sql
+sp_tblEngineerGroupMembers_Insert.sql
+sp_tblEngineerGroupMembers_Update.sql
+sp_tblEngineerGroups_GetAll.sql
+sp_tblEngineerGroups_Insert.sql
+sp_tblEngineerGroups_Update.sql
+

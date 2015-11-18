@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="91f6fc49-6a6f-4bcc-8700-b8e3de4ffea0" name="joe@AGH 2012-01-29 10:16:52" runUser="AGH\joe" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="e0f90ab9-fee6-4fc8-a9ad-cd5e0507f10d">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="joe_AGH 2012-01-29 10_16_52">
+      <DeploymentItem filename="C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF_C#\KPFF_Csharp_Converted\KPFF.Web\bin\KPFF.PMP.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-01-29T10:16:52.2465562-08:00" queuing="2012-01-29T10:16:54.2836727-08:00" start="2012-01-29T10:16:54.4836841-08:00" finish="2012-01-29T10:18:01.9625437-08:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="AGH" outcome="Error" timestamp="2012-01-29T10:18:01.9605436-08:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="DeactivateMember" storage="c:\users\joe\documents\visual studio 2010\projects\kpff_c#\kpff_csharp_converted\pmp.test\bin\debug\pmp.test.dll" id="0db3dfab-6d4d-63fe-3747-3d3c89ce1239">
+      <Execution id="1a41df1a-56d0-45d0-8302-fd97becae13e" />
+      <TestMethod codeBase="C:/Users/joe/Documents/Visual Studio 2010/Projects/KPFF_C#/KPFF_Csharp_Converted/PMP.Test/bin/Debug/PMP.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PMP.Test.EngineerGroupsTest, PMP.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeactivateMember" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0db3dfab-6d4d-63fe-3747-3d3c89ce1239" executionId="1a41df1a-56d0-45d0-8302-fd97becae13e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1a41df1a-56d0-45d0-8302-fd97becae13e" testId="0db3dfab-6d4d-63fe-3747-3d3c89ce1239" testName="DeactivateMember" computerName="AGH" duration="00:01:07.2698476" startTime="2012-01-29T10:16:54.6926961-08:00" endTime="2012-01-29T10:18:01.9625437-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a41df1a-56d0-45d0-8302-fd97becae13e">
+    </UnitTestResult>
+  </Results>
+</TestRun>

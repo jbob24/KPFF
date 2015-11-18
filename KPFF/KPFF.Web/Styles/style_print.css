@@ -1,0 +1,56 @@
+body   					{ color: #000000; font-family: Arial, Helvetica; }
+.content				{ visibility: visible; position: relative; top: 0px; left: 0; width: 902; height: 10 }
+
+/* Template styles */
+p						{ margin: 0 0 8px 0; }
+.copyright				{ font-size: 10px; padding: 12px 0 0 0 }
+.login					{ font-size: 10px; padding: 0 8px 0 0 }
+.footer					{ font-size: 12px; letter-spacing: 1px; padding: 2px 0 0 0; }
+.search					{ color: #000000; font-size: 11px; font-family: Arial, Helvetica; letter-spacing: 1px; padding: 0 0 0 20px; }
+.prevweek				{ color: #000066; font-size: 10px; text-align: left; padding: 0 0 0 0 }
+.nextweek				{ color: #000066; font-size: 10px; text-align: right; padding: 0 15px 0 0 }
+.title					{ font-size: 22px; font-style: italic; font-weight: bold; padding-bottom: 3px; padding-left: 6px; color:#ffffff }
+
+.bodyBkgd				  { background-image: url(images/nav/logo_bottom2.gif); background-repeat: no-repeat; background-attachment: fixed; background-position: 0 top; position: absolute; z-index: -1 }
+.detailTitle			 { font-size: 12px; vertical-align: top }
+.detailData				  { font-size: 12px; vertical-align: top }
+
+/* Navigation styles */
+#subNavLinks			{ color: #000000; font-size: 12px; margin: 0; padding: 0 }
+#subNavLinks ul			{ list-style-type: none; list-style-position: outside; margin: 8px 0 8px 10px; padding: 0 }
+#subNavLinks ul li 		{ font-weight: bold; line-height: 16px; margin: 0 0 0 0; padding: 0 0 3px }
+
+/* Link styles */
+A:link.genLink			{ color: #FFFFFF; text-decoration: none }
+A:visited.genLink		{ color: #FFFFFF; text-decoration: none }
+A:hover.genLink			{ color: #000000; text-decoration: underline }
+A:active.genLink		{ color: #000000; text-decoration: underline }
+
+A:link.subNavLink		{ color: #000000; text-decoration: none }
+A:visited.subNavLink		{ color: #000000; text-decoration: none }
+A:hover.subNavLink		{ color: #000000; text-decoration: underline }
+A:active.subNavLink		{ color: #000000; text-decoration: underline }
+
+/* Form styles */
+.forms 					{ color: #000000; font-size: 11px; font-family: Arial, Helvetica; text-align: left; border: solid 1px #909090 }
+.errors					{ color: red; font-size: 12px; font-family: Lucida Sans, Helvetica, Arial; line-height: 14px }
+.required				{ color: #690411; font-size: 10px; font-family: Lucida Sans, Helvetica, Arial; line-height: 10px }
+.formContent			{ color: #000000; font-size: 11px; font-family: Arial, Helvetica; }
+
+/* Padding styles */
+.padSmall				{ padding-top: 3px; }
+.padMedium				{ padding-top: 6px; }
+.padLarge				{ padding-top: 12px; }
+
+/* Color Styles */
+.darkBlue				{ background-color: #004F84 }
+.blue					{ background-color: #2972A4 }
+
+/* Print Styles */
+.NoPrint		{ display: none; }
+.HighlightNav	{ display: none; }        
+.formButton		{ display: none;}
+
+.RowStyle			{ background-color: #FFFFFF; color: #000066; font-size: 12px; border: solid 1px #666699; padding: 3px; }
+.AlternateRowStyle	{ background-color: #D1D8F3; color: #000066; font-size: 12px; border: solid 1px #666699; padding: 3px; }
+.HeaderStyle		{ color: #FFFFFF; font-size: 12px; border: solid 1px #ffffff; padding: 3px; background-color: #000066; cursor:pointer; }

@@ -1,0 +1,77 @@
+﻿/* Scrollable Content Height */
+/*.scrollContent */
+.scrollTable tbody
+{
+ height:340px;
+ overflow-x:hidden;
+ overflow-y:auto;
+}
+ 
+.scrollTable tbody tr {
+ height: auto;
+ white-space: nowrap;
+}
+ 
+/* Prevent Mozilla scrollbar from hiding right-most cell content */
+.scrollTable tbody tr td:last-child {
+ padding-right: 20px;
+}
+ 
+/* Fixed Header Height */
+.scrollTable thead tr {
+ /*position: relative;
+ height: auto;*/
+ /* this fixes IE header jumping bug when mousing over rows in the tbody */
+ top: expression( this.parentNode.parentNode.parentNode.scrollTop + 'px' );
+}
+ 
+/* Put border around entire table */
+div.hoursGridDiv {
+ overflow-y:auto;
+}
+ 
+ 
+ /* Fixed Header Height */
+.scrollTable thead tr {
+ /*position: relative;
+ height: auto;*/
+ /* this fixes IE header jumping bug when mousing over rows in the tbody */
+ /*top: expression( this.parentNode.parentNode.parentNode.scrollTop + 'px' );*/
+}
+
+
+/* Table Header formatting */
+.scrollTable thead {
+ background-color: white;
+ color: #FFFFFF;
+ margin: 3px;
+ padding: 1px;
+ white-space: nowrap;
+ font-family: Helvetica;
+ font-size: 16px;
+ text-decoration: none;
+ font-weight: bold;
+}
+
+
+ /* Fixed Header Height */
+.scrollTable tfoot tr {
+ position: relative;
+ height: auto;
+ /* this fixes IE header jumping bug when mousing over rows in the tbody */
+/* bottom: expression( this.parentNode.parentNode.parentNode.scrollTop + 'px' );*/
+}
+
+
+/* Table Header formatting */
+.scrollTable tfoot {
+ background-color: white;
+ color: #FFFFFF;
+ margin: 3px;
+ padding: 1px;
+ white-space: nowrap;
+ font-family: Helvetica;
+ font-size: 16px;
+ text-decoration: none;
+ font-weight: bold;
+}

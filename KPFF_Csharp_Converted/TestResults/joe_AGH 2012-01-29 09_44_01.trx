@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="cf475497-a960-4323-aaae-f8cd956abf6a" name="joe@AGH 2012-01-29 09:44:01" runUser="AGH\joe" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="e0f90ab9-fee6-4fc8-a9ad-cd5e0507f10d">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="joe_AGH 2012-01-29 09_44_01">
+      <DeploymentItem filename="C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF_C#\KPFF_Csharp_Converted\KPFF.Web\bin\KPFF.PMP.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-01-29T09:44:01.1118137-08:00" queuing="2012-01-29T09:44:01.2598222-08:00" start="2012-01-29T09:44:01.3878295-08:00" finish="2012-01-29T09:44:02.4798920-08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetGroupByID" storage="c:\users\joe\documents\visual studio 2010\projects\kpff_c#\kpff_csharp_converted\pmp.test\bin\debug\pmp.test.dll" id="40b9dffa-65a9-9769-6118-a28458db381d">
+      <Execution id="7c834c6f-b2a0-4724-b77f-0b71c92a0eed" />
+      <TestMethod codeBase="C:/Users/joe/Documents/Visual Studio 2010/Projects/KPFF_C#/KPFF_Csharp_Converted/PMP.Test/bin/Debug/PMP.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PMP.Test.EngineerGroupsTest, PMP.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetGroupByID" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="40b9dffa-65a9-9769-6118-a28458db381d" executionId="7c834c6f-b2a0-4724-b77f-0b71c92a0eed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7c834c6f-b2a0-4724-b77f-0b71c92a0eed" testId="40b9dffa-65a9-9769-6118-a28458db381d" testName="GetGroupByID" computerName="AGH" duration="00:00:00.1994825" startTime="2012-01-29T09:44:01.4618337-08:00" endTime="2012-01-29T09:44:02.2438785-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7c834c6f-b2a0-4724-b77f-0b71c92a0eed">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="44051eab-75a4-46ca-8eb7-e59ac434dfaf" name="joe@AGH 2011-12-30 11:59:17" runUser="AGH\joe" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="36fc17b3-80bb-4bac-91c8-b1d061f2206f">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="joe_AGH 2011-12-30 11_59_17">
+      <DeploymentItem filename="C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF\KPFF.Business\bin\Debug\KPFF.Business.dll" />
+      <DeploymentItem filename="C:\Users\joe\Documents\Visual Studio 2010\Projects\KPFF\KPFF.Entities\bin\Debug\KPFF.Entities.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-12-30T11:59:17.4190909-08:00" queuing="2011-12-30T11:59:17.8561159-08:00" start="2011-12-30T11:59:17.9921236-08:00" finish="2011-12-30T11:59:18.6381606-08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetEmployeeProjects" storage="c:\users\joe\documents\visual studio 2010\projects\kpff\kpff.test\bin\debug\kpff.test.dll" id="88f138eb-f654-809e-0d61-8a9dbc314e8c">
+      <Execution id="0075e264-6f98-4156-86cf-3646891d5d9c" />
+      <TestMethod codeBase="C:/Users/joe/Documents/Visual Studio 2010/Projects/KPFF/KPFF.Test/bin/Debug/KPFF.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="KPFF.Test.Employee, KPFF.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetEmployeeProjects" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="88f138eb-f654-809e-0d61-8a9dbc314e8c" executionId="0075e264-6f98-4156-86cf-3646891d5d9c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0075e264-6f98-4156-86cf-3646891d5d9c" testId="88f138eb-f654-809e-0d61-8a9dbc314e8c" testName="GetEmployeeProjects" computerName="AGH" duration="00:00:00.1413114" startTime="2011-12-30T11:59:18.0451267-08:00" endTime="2011-12-30T11:59:18.5211539-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0075e264-6f98-4156-86cf-3646891d5d9c">
+    </UnitTestResult>
+  </Results>
+</TestRun>

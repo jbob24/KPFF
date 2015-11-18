@@ -1,0 +1,200 @@
+﻿body
+{
+}
+
+.textBox
+{
+    border-style: none;
+    width: 20px;
+    margin-left: 1px;
+    margin-right: 3px;
+    margin-bottom: 2px;
+	font-size: 10px;    
+    color: #000066;
+    font-weight: bold;	
+}
+
+.textBox:hover
+{
+    border-color: #C0C0C0;
+}
+
+.textBox:focus
+{
+    border-style: solid;
+    border-color: #0000FF;
+    background-color: White;
+}
+
+.textBox:blur
+{
+    border-color: inherit;
+}
+
+.textBoxChanged
+{
+    font-weight: bold;
+    color: #FF0000;
+}
+
+
+
+.hours
+{
+    background-image: url('picker4.png');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    cursor:pointer;
+}
+
+.hoursGrid
+{
+}
+
+.hoursGrid th
+{
+    padding: 0px;
+    margin: 0px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    color: #ffffff;
+    font-size: 11px;
+    padding: 2px;
+    font-weight: bold;
+    background-color: #BDAA94;
+    cursor: pointer;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: inherit;
+    border-left-style: solid;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: inherit;
+    border-left-width: 1px;
+    border-top-color: #ffffff;
+    border-right-color: #ffffff;
+    border-left-color: #ffffff;
+}
+
+.hoursGrid tr
+{
+    color: #000066;
+    font-size: 10px;
+    font-weight: bold;
+    border: solid 1px #666699;
+}
+
+.hoursGrid tr a
+{
+    color: #000066;
+}
+
+.alternateRow
+{
+    background-color: #D1D8F3;
+}
+
+.alternateRow a
+{
+    color: #000066;
+}
+
+.headerCurrentWeek
+{
+    color: #000000;
+    border: solid 1px #ffffff;
+    padding: 3px;
+    font-weight: bold;
+    background-color: #ffffff;
+}
+
+.underHours
+{
+    background-color: #00FFFF;
+}
+
+.footerStyle td
+{
+    color: #ffffff;
+    font-size: 11px;
+    border: solid 1px #ffffff;
+    padding: 3px;
+    font-weight: bold;
+    background-color: #BDAA94;
+    height: 20px;
+}
+
+.dragging
+{
+    background-color: #4D6EA6;
+}
+
+.CellUnderSyle
+{
+    background-color: #86ABE5;
+}
+
+.CellScheduledStyle
+{
+    background-color: #FFFFFF;
+}
+
+.Cell1025Style
+{
+    background-color: #FFFE9E;
+}
+
+.CellOver25Style
+{
+    background-color: #FF9797;
+}
+
+.droppableHovered
+{
+}
+
+.droppableHoveredTop
+{
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: #000000;
+}
+
+.droppableHoveredBottom
+{
+    border-bottom-width: 2px;
+    border-bottom-color: #000000;
+    border-bottom-style: solid;
+}
+
+.droppableHoveredLeft
+{
+    border-left-width: 2px;
+    border-left-color: #000000;
+    border-left-style: solid;
+}
+
+.droppableHoveredRight
+{
+    border-right-width: 2px;
+    border-right-color: #000000;
+    border-right-style: solid;
+}
+
+.droppableHovered input
+{
+    color: #C0C0C0;
+    font-style: italic;
+    font-weight: normal;
+}
+
+
+/************************ Sortable Columns ****************************/
+
+.dragsorter
+{
+    background-image: url('picker4.png');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    cursor:pointer;
+}

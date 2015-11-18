@@ -1,0 +1,962 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0B8DDEE6-9D4A-4FCD-8ABC-D436C694852A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KPFF.PMP</RootNamespace>
+    <AssemblyName>KPFF.PMP</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <TargetFrameworkProfile />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=3.0.30512.20315, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="App_Licenses, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\App_Licenses.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.WebUI.Shared.v6.1, Version=6.1.20061.28, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Infragistics2.WebUI.Shared.v6.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.WebUI.UltraWebGrid.v6.1, Version=6.1.20061.28, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Infragistics2.WebUI.UltraWebGrid.v6.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.WebUI.WebCombo.v6.1, Version=6.1.20061.28, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Infragistics2.WebUI.WebCombo.v6.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.WebUI.WebDateChooser.v6.1, Version=6.1.20061.28, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Infragistics2.WebUI.WebDateChooser.v6.1.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\ControlBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Entities\DABase.cs" />
+    <Compile Include="Entities\Engineer.cs" />
+    <Compile Include="Entities\EngineerGroup.cs" />
+    <Compile Include="Entities\EngineerGroupOption.cs" />
+    <Compile Include="Entities\ExtensionMethods.cs" />
+    <Compile Include="Entities\Extensions.cs" />
+    <Compile Include="Entities\PageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Entities\Project.cs" />
+    <Compile Include="MyAccount\BQReportMaster.master.designer.cs">
+      <DependentUpon>BQReportMaster.master</DependentUpon>
+    </Compile>
+    <Compile Include="MyAccount\bulletinboard.aspx.cs">
+      <DependentUpon>bulletinboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAccount\bulletinboard.aspx.designer.cs">
+      <DependentUpon>bulletinboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAccount\DisplayGroup.aspx.cs">
+      <DependentUpon>DisplayGroup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAccount\DisplayGroup.aspx.designer.cs">
+      <DependentUpon>DisplayGroup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAccount\DisplayGroup_v3.aspx.cs">
+      <DependentUpon>DisplayGroup_v3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAccount\DisplayGroup_v3.aspx.designer.cs">
+      <DependentUpon>DisplayGroup_v3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAccount\PageTemplate.master.designer.cs">
+      <DependentUpon>PageTemplate.master</DependentUpon>
+    </Compile>
+    <Compile Include="MyAccount\_TemplateMaster.master.designer.cs">
+      <DependentUpon>_TemplateMaster.master</DependentUpon>
+    </Compile>
+    <Compile Include="MyAdmin\EngineerGroupEdit.aspx.cs">
+      <DependentUpon>EngineerGroupEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAdmin\EngineerGroupEdit.aspx.designer.cs">
+      <DependentUpon>EngineerGroupEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAdmin\EngineerGroups.aspx.cs">
+      <DependentUpon>EngineerGroups.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAdmin\EngineerGroups.aspx.designer.cs">
+      <DependentUpon>EngineerGroups.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAdmin\_GlobalUtility.ascx.designer.cs">
+      <DependentUpon>_GlobalUtility.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAdmin\_TemplateMaster.master.designer.cs">
+      <DependentUpon>_TemplateMaster.master</DependentUpon>
+    </Compile>
+    <Compile Include="MyAdmin\_TemplateMasterNoSub.master.designer.cs">
+      <DependentUpon>_TemplateMasterNoSub.master</DependentUpon>
+    </Compile>
+    <Compile Include="Old_App_Code\clsSchedule.cs" />
+    <Compile Include="Old_App_Code\Configuration.cs" />
+    <Compile Include="Old_App_Code\ControlBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Old_App_Code\Engineer.cs" />
+    <Compile Include="Old_App_Code\GridControlHelpers.cs" />
+    <Compile Include="Old_App_Code\IndexChart.cs" />
+    <Compile Include="Old_App_Code\Project.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Old_App_Code\WeekDate.cs" />
+    <Compile Include="HoursBox\HourBox.ascx.designer.cs">
+      <DependentUpon>HourBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceTest.aspx.cs">
+      <DependentUpon>ServiceTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ServiceTest.aspx.designer.cs">
+      <DependentUpon>ServiceTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Contracts\Engineer.cs" />
+    <Compile Include="Service\Service1.svc.cs">
+      <DependentUpon>Service1.svc</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\EngineerDetail.ascx.cs">
+      <DependentUpon>EngineerDetail.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\EngineerDetail.ascx.designer.cs">
+      <DependentUpon>EngineerDetail.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ReportProjectsGrid.ascx.designer.cs">
+      <DependentUpon>ReportProjectsGrid.ascx</DependentUpon>
+    </Compile>
+    <Content Include="base.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="defaultTheme.css" />
+    <Content Include="Error.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="HoursBox\1292570091_small-tiles.png" />
+    <Content Include="HoursBox\bg_offwhite2_br.png" />
+    <Content Include="HoursBox\jquery.EditHourbox.js" />
+    <Content Include="HoursBox\jquery.HourBox2.js" />
+    <Content Include="HoursBox\fixedhead.js" />
+    <Content Include="HoursBox\HourBox.ascx" />
+    <Content Include="HoursBox\HourBox.css" />
+    <Content Include="HoursBox\HourBox.js" />
+    <Content Include="HoursBox\jquery.fixheadertable.min.js" />
+    <Content Include="HoursBox\jquery.fixheadertable_custom.js" />
+    <Content Include="HoursBox\jquery.hourbox.js" />
+    <Content Include="HoursBox\jquery.MultiColSort.js" />
+    <Content Include="HoursBox\jquery.sortable.js" />
+    <Content Include="HoursBox\NonEditableHourBox.js" />
+    <Content Include="HoursBox\nonSelectableList.css" />
+    <Content Include="HoursBox\picker1.png" />
+    <Content Include="HoursBox\picker2.png" />
+    <Content Include="HoursBox\picker3.png" />
+    <Content Include="HoursBox\picker4.png" />
+    <Content Include="HoursBox\projectList.css" />
+    <Content Include="HoursBox\scrollableTable.js" />
+    <Content Include="HoursBox\tableSearch.js" />
+    <Content Include="HTMLPage.htm" />
+    <Content Include="images\Arrow.jpg" />
+    <Content Include="images\favicon.ico" />
+    <Content Include="images\favorite.png" />
+    <Content Include="images\GridLegend.jpg" />
+    <Content Include="images\header.jpg" />
+    <Content Include="images\icon_hard_hat.gif" />
+    <Content Include="images\KPFF 3D Contact.bmp" />
+    <Content Include="images\KPFF-FutureLogo-FNL.jpg" />
+    <Content Include="images\MinusBox.jpg" />
+    <Content Include="images\nav\logo_bottom2.gif" />
+    <Content Include="images\Over.jpg" />
+    <Content Include="images\PlusBox.jpg" />
+    <Content Include="images\PMP.png" />
+    <Content Include="images\Scheduled.jpg" />
+    <Content Include="images\spacer.gif" />
+    <Content Include="images\Ten25.jpg" />
+    <Content Include="images\ui-bg_flat_30_cccccc_40x100.png" />
+    <Content Include="images\ui-bg_flat_50_5c5c5c_40x100.png" />
+    <Content Include="images\ui-bg_glass_20_555555_1x400.png" />
+    <Content Include="images\ui-bg_glass_40_0078a3_1x400.png" />
+    <Content Include="images\ui-bg_glass_40_ffc73d_1x400.png" />
+    <Content Include="images\ui-bg_gloss-wave_25_333333_500x100.png" />
+    <Content Include="images\ui-bg_highlight-soft_80_eeeeee_1x100.png" />
+    <Content Include="images\ui-bg_inset-soft_25_000000_1x100.png" />
+    <Content Include="images\ui-bg_inset-soft_30_f58400_1x100.png" />
+    <Content Include="images\ui-icons_222222_256x240.png" />
+    <Content Include="images\ui-icons_4b8e0b_256x240.png" />
+    <Content Include="images\ui-icons_a83300_256x240.png" />
+    <Content Include="images\ui-icons_cccccc_256x240.png" />
+    <Content Include="images\ui-icons_ffffff_256x240.png" />
+    <Content Include="images\Under.jpg" />
+    <Content Include="index.htm" />
+    <Content Include="jquery-ui-1.8.13.custom.css" />
+    <Content Include="LookupGridsStyleSheet.css" />
+    <Content Include="MyAccount\AllEngineers.aspx" />
+    <Content Include="MyAccount\AllEngineersPrint.aspx" />
+    <Content Include="MyAccount\AllEngineers_PrintList.aspx" />
+    <Content Include="MyAccount\ArchivedProjects.aspx" />
+    <Content Include="MyAccount\BQReportMaster.master" />
+    <Content Include="MyAccount\bulletinboard.aspx" />
+    <Content Include="MyAccount\DisplayGroup.aspx" />
+    <Content Include="MyAccount\DisplayGroup_v3.aspx" />
+    <Content Include="MyAccount\EmployeeDetail.aspx" />
+    <Content Include="MyAccount\EmployeeDetail_Print.aspx" />
+    <Content Include="MyAccount\FiscalSummary.aspx" />
+    <Content Include="MyAccount\images\igsch_left_arrow.gif" />
+    <Content Include="MyAccount\images\igsch_right_arrow.gif" />
+    <Content Include="MyAccount\images\nav\activeprojects_off.jpg" />
+    <Content Include="MyAccount\images\nav\activeprojects_off.png" />
+    <Content Include="MyAccount\images\nav\activeprojects_on.png" />
+    <Content Include="MyAccount\images\nav\allprojects_off.gif" />
+    <Content Include="MyAccount\images\nav\allprojects_on.gif" />
+    <Content Include="MyAccount\images\nav\allprojects_over.gif" />
+    <Content Include="MyAccount\images\nav\divide_off.gif" />
+    <Content Include="MyAccount\images\nav\divide_on_lt.gif" />
+    <Content Include="MyAccount\images\nav\divide_on_rt.gif" />
+    <Content Include="MyAccount\images\nav\engineers_off.gif" />
+    <Content Include="MyAccount\images\nav\engineers_on.gif" />
+    <Content Include="MyAccount\images\nav\engineers_over.gif" />
+    <Content Include="MyAccount\images\nav\left_divide_off.gif" />
+    <Content Include="MyAccount\images\nav\left_divide_on.gif" />
+    <Content Include="MyAccount\images\nav\logo_bottom.gif" />
+    <Content Include="MyAccount\images\nav\logo_bottom2.gif" />
+    <Content Include="MyAccount\images\nav\logo_middle.gif" />
+    <Content Include="MyAccount\images\nav\logo_upper.gif" />
+    <Content Include="MyAccount\images\nav\navbar_bgfill.png" />
+    <Content Include="MyAccount\images\nav\navbar_bgfill2.png" />
+    <Content Include="MyAccount\images\nav\navbar_hover_bgfill.png" />
+    <Content Include="MyAccount\images\nav\Over.jpg" />
+    <Content Include="MyAccount\images\nav\projects_off.gif" />
+    <Content Include="MyAccount\images\nav\projects_on.gif" />
+    <Content Include="MyAccount\images\nav\projects_over.gif" />
+    <Content Include="MyAccount\images\nav\schedule_off.gif" />
+    <Content Include="MyAccount\images\nav\schedule_on.gif" />
+    <Content Include="MyAccount\images\nav\schedule_over.gif" />
+    <Content Include="MyAccount\images\nav\summary_off.gif" />
+    <Content Include="MyAccount\images\nav\summary_on.gif" />
+    <Content Include="MyAccount\images\nav\summary_over.gif" />
+    <Content Include="MyAccount\images\spacer.gif" />
+    <Content Include="MyAccount\images\template\header_end.gif" />
+    <Content Include="MyAccount\images\template\header_fade.jpg" />
+    <Content Include="MyAccount\images\template\header_fade1v2.jpg" />
+    <Content Include="MyAccount\images\template\header_fade1v2.png" />
+    <Content Include="MyAccount\images\template\header_fade2.jpg" />
+    <Content Include="MyAccount\images\template\logo.jpg" />
+    <Content Include="MyAccount\MyProjects.aspx" />
+    <Content Include="MyAccount\MyProjects_Print.aspx" />
+    <Content Include="MyAccount\MySchedule.aspx" />
+    <Content Include="MyAccount\MySchedule_Print.aspx" />
+    <Content Include="MyAccount\nav\activeprojects_off.gif" />
+    <Content Include="MyAccount\nav\activeprojects_off.png" />
+    <Content Include="MyAccount\nav\activeprojects_on.png" />
+    <Content Include="MyAccount\nav\allprojects_off.gif" />
+    <Content Include="MyAccount\nav\allprojects_on.gif" />
+    <Content Include="MyAccount\nav\bottomline.gif" />
+    <Content Include="MyAccount\nav\divide_off.gif" />
+    <Content Include="MyAccount\nav\divide_on_lt.gif" />
+    <Content Include="MyAccount\nav\divide_on_rt.gif" />
+    <Content Include="MyAccount\nav\engineers_off.gif" />
+    <Content Include="MyAccount\nav\engineers_on.gif" />
+    <Content Include="MyAccount\nav\left_divide_off.gif" />
+    <Content Include="MyAccount\nav\left_divide_on.gif" />
+    <Content Include="MyAccount\nav\logo_bottom.gif" />
+    <Content Include="MyAccount\nav\logo_middle.gif" />
+    <Content Include="MyAccount\nav\logo_upper.gif" />
+    <Content Include="MyAccount\nav\projects_off.gif" />
+    <Content Include="MyAccount\nav\projects_on.gif" />
+    <Content Include="MyAccount\nav\schedule_off.gif" />
+    <Content Include="MyAccount\nav\schedule_on.gif" />
+    <Content Include="MyAccount\nav\summary_off.gif" />
+    <Content Include="MyAccount\nav\summary_on.gif" />
+    <Content Include="MyAccount\OfficeSummary.aspx" />
+    <Content Include="MyAccount\PageTemplate.master" />
+    <Content Include="MyAccount\ProjectDetail.aspx" />
+    <Content Include="MyAccount\ProjectDetailAdd.aspx" />
+    <Content Include="MyAccount\ProjectDetailEdit.aspx" />
+    <Content Include="MyAccount\ProjectDetail_Print.aspx" />
+    <Content Include="MyAccount\Projects.aspx" />
+    <Content Include="MyAccount\ProjectsPrint.aspx" />
+    <Content Include="MyAccount\Projects_PrintList.aspx" />
+    <Content Include="MyAccount\spacer.gif" />
+    <Content Include="MyAccount\template\header_end.gif" />
+    <Content Include="MyAccount\template\header_fade.jpg" />
+    <Content Include="MyAccount\template\header_fade2.jpg" />
+    <Content Include="MyAccount\template\logo.jpg" />
+    <Content Include="MyAccount\_BlankPage.aspx" />
+    <Content Include="MyAccount\_TemplateMaster.master" />
+    <Content Include="MyAdmin\AllEngineers.aspx" />
+    <Content Include="MyAdmin\AllEngineersPrint.aspx" />
+    <Content Include="MyAdmin\AllEngineers_PrintList.aspx" />
+    <Content Include="MyAdmin\ClientAdd.aspx" />
+    <Content Include="MyAdmin\ClientEdit.aspx" />
+    <Content Include="MyAdmin\Clients.aspx" />
+    <Content Include="MyAdmin\ClientTypes.aspx" />
+    <Content Include="MyAdmin\EngineerGroupEdit.aspx" />
+    <Content Include="MyAdmin\EngineerGroups.aspx" />
+    <Content Include="MyAdmin\EditEmployees.aspx" />
+    <Content Include="MyAdmin\EmployeeAdd.aspx" />
+    <Content Include="MyAdmin\EmployeeDetail.aspx" />
+    <Content Include="MyAdmin\EmployeeDetail_Print.aspx" />
+    <Content Include="MyAdmin\EmployeeEdit.aspx" />
+    <Content Include="MyAdmin\Employees.aspx" />
+    <Content Include="MyAdmin\EmployeeTypes.aspx" />
+    <Content Include="MyAdmin\FeeStructures.aspx" />
+    <Content Include="MyAdmin\images\igsch_left_arrow.gif" />
+    <Content Include="MyAdmin\images\igsch_right_arrow.gif" />
+    <Content Include="MyAdmin\images\nav\admin_off.gif" />
+    <Content Include="MyAdmin\images\nav\admin_on.gif" />
+    <Content Include="MyAdmin\images\nav\admin_over.gif" />
+    <Content Include="MyAdmin\images\nav\allprojects_off.gif" />
+    <Content Include="MyAdmin\images\nav\allprojects_on.gif" />
+    <Content Include="MyAdmin\images\nav\allprojects_over.gif" />
+    <Content Include="MyAdmin\images\nav\divide_off.gif" />
+    <Content Include="MyAdmin\images\nav\divide_on_lt.gif" />
+    <Content Include="MyAdmin\images\nav\divide_on_rt.gif" />
+    <Content Include="MyAdmin\images\nav\engineers_off.gif" />
+    <Content Include="MyAdmin\images\nav\engineers_on.gif" />
+    <Content Include="MyAdmin\images\nav\engineers_over.gif" />
+    <Content Include="MyAdmin\images\nav\left_divide_off.gif" />
+    <Content Include="MyAdmin\images\nav\left_divide_on.gif" />
+    <Content Include="MyAdmin\images\nav\logo_bottom.gif" />
+    <Content Include="MyAdmin\images\nav\logo_middle.gif" />
+    <Content Include="MyAdmin\images\nav\logo_upper.gif" />
+    <Content Include="MyAdmin\images\nav\projects_off.gif" />
+    <Content Include="MyAdmin\images\nav\projects_on.gif" />
+    <Content Include="MyAdmin\images\nav\projects_over.gif" />
+    <Content Include="MyAdmin\images\nav\schedule_off.gif" />
+    <Content Include="MyAdmin\images\nav\schedule_on.gif" />
+    <Content Include="MyAdmin\images\nav\schedule_over.gif" />
+    <Content Include="MyAdmin\images\nav\summary_off.gif" />
+    <Content Include="MyAdmin\images\nav\summary_on.gif" />
+    <Content Include="MyAdmin\images\nav\summary_over.gif" />
+    <Content Include="MyAdmin\images\spacer.gif" />
+    <Content Include="MyAdmin\images\subNav\logo_bottom.gif" />
+    <Content Include="MyAdmin\images\subNav\subNav_bkgd.gif" />
+    <Content Include="MyAdmin\images\subNav\subNav_bottom.gif" />
+    <Content Include="MyAdmin\images\subNav\subNav_top.gif" />
+    <Content Include="MyAdmin\images\template\header_end.gif" />
+    <Content Include="MyAdmin\images\template\header_fade.jpg" />
+    <Content Include="MyAdmin\images\template\header_fade2.jpg" />
+    <Content Include="MyAdmin\images\template\logo.jpg" />
+    <Content Include="MyAdmin\MyAdmin.aspx" />
+    <Content Include="MyAdmin\OfficeSummary.aspx" />
+    <Content Include="MyAdmin\Phases.aspx" />
+    <Content Include="MyAdmin\ProjectDetail.aspx" />
+    <Content Include="MyAdmin\ProjectDetailAdd.aspx" />
+    <Content Include="MyAdmin\ProjectDetailEdit.aspx" />
+    <Content Include="MyAdmin\ProjectDetail_Print.aspx" />
+    <Content Include="MyAdmin\Projects.aspx" />
+    <Content Include="MyAdmin\ProjectsPrint.aspx" />
+    <Content Include="MyAdmin\ProjectStatus.aspx" />
+    <Content Include="MyAdmin\Projects_PrintList.aspx" />
+    <Content Include="MyAdmin\_BlankPage.aspx" />
+    <Content Include="MyAdmin\_GlobalUtility.ascx" />
+    <Content Include="MyAdmin\_TemplateMaster.master" />
+    <Content Include="MyAdmin\_TemplateMasterNoSub.master" />
+    <Content Include="scrollableTable.css" />
+    <Content Include="ServiceTest.aspx" />
+    <Content Include="Service\Service1.svc" />
+    <Content Include="style.css" />
+    <Content Include="style_print.css" />
+    <Content Include="test.aspx" />
+    <Content Include="test.htm" />
+    <Content Include="Themes\jquery-ui-1.8.21.custom\css\custom-theme\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Themes\jquery-ui-1.8.21.custom\css\custom-theme\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Themes\jquery-ui-1.8.21.custom\css\custom-theme\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Themes\jquery-ui-1.8.21.custom\css\custom-theme\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Themes\jquery-ui-1.8.21.custom\css\custom-theme\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Themes\jquery-ui-1.8.21.custom\css\custom-theme\images\ui-bg_glass_75_ffffff_1x400.png" />
+    <Content Include="Themes\jquery-ui-1.8.21.custom\css\custom-theme\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Themes\jquery-ui-1.8.21.custom\css\custom-theme\images\ui-bg_inset-soft_95_fef1ec_1x100.png" />
+    <Content Include="Themes\jquery-ui-1.8.21.custom\css\custom-theme\images\ui-icons_222222_256x240.png" />
+    <Content Include="Themes\jquery-ui-1.8.21.custom\css\custom-theme\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Themes\jquery-ui-1.8.21.custom\css\custom-theme\images\ui-icons_454545_256x240.png" />
+    <Content Include="Themes\jquery-ui-1.8.21.custom\css\custom-theme\images\ui-icons_888888_256x240.png" />
+    <Content Include="Themes\jquery-ui-1.8.21.custom\css\custom-theme\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Themes\jquery-ui-1.8.21.custom\css\custom-theme\jquery-ui-1.8.21.custom.css" />
+    <Content Include="UserControls\EditableEngineerList.ascx" />
+    <Content Include="UserControls\EditableEngineerProjectList.ascx" />
+    <Content Include="UserControls\EngineerDetail.ascx" />
+    <Content Include="UserControls\EngineerList.ascx" />
+    <Content Include="UserControls\ProjectList.ascx" />
+    <Content Include="UserControls\ReportClientsGrid.ascx" />
+    <Content Include="UserControls\ReportPICsGrid.ascx" />
+    <Content Include="UserControls\ReportPMsGrid.ascx" />
+    <Content Include="UserControls\ReportProjectsGrid.ascx" />
+    <Content Include="UWGStyleSheet.css" />
+    <Content Include="UWGStyleSheet_Print.css" />
+    <Content Include="wdtStyleSheet.css" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="_scripts\arrow_down.png" />
+    <Content Include="_scripts\AutoComplete.js" />
+    <Content Include="_scripts\cancel.png" />
+    <Content Include="_scripts\center.js" />
+    <Content Include="_scripts\confirm.js" />
+    <Content Include="_scripts\CSScriptLib.js" />
+    <Content Include="_scripts\EnterToTab.js" />
+    <Content Include="_scripts\jquery-1.4.2.min.js" />
+    <Content Include="_scripts\jquery-ui-1.8.7.custom.min.js" />
+    <Content Include="_scripts\jquery.dataTables.js" />
+    <Content Include="_scripts\jquery.dataTables.min.js" />
+    <Content Include="_scripts\jquery.engineerdetails.js" />
+    <Content Include="_scripts\jquery.hyjack.select.js" />
+    <Content Include="_scripts\jquery.tablescroll.css" />
+    <Content Include="_scripts\jquery.tablescroll.js" />
+    <Content Include="_scripts\jquery.tablesorter.js" />
+    <Content Include="_scripts\jquery.tablesorter.min.js" />
+    <Content Include="_scripts\jquery.ui.core.js" />
+    <Content Include="_scripts\jquery.ui.draggable.js" />
+    <Content Include="_scripts\jquery.ui.droppable.js" />
+    <Content Include="_scripts\jquery.ui.mouse.js" />
+    <Content Include="_scripts\jquery.ui.widget.js" />
+    <Content Include="_scripts\json2.js" />
+    <Content Include="_scripts\KPFF.js" />
+    <Content Include="_scripts\ListSearch.js" />
+    <Content Include="_scripts\sortable.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAccount\AllEngineers.aspx.cs">
+      <DependentUpon>AllEngineers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAccount\AllEngineers.aspx.designer.cs">
+      <DependentUpon>AllEngineers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAccount\AllEngineersPrint.aspx.cs">
+      <DependentUpon>AllEngineersPrint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAccount\AllEngineersPrint.aspx.designer.cs">
+      <DependentUpon>AllEngineersPrint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAccount\AllEngineers_PrintList.aspx.cs">
+      <DependentUpon>AllEngineers_PrintList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAccount\AllEngineers_PrintList.aspx.designer.cs">
+      <DependentUpon>AllEngineers_PrintList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAccount\ArchivedProjects.aspx.cs">
+      <DependentUpon>ArchivedProjects.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAccount\ArchivedProjects.aspx.designer.cs">
+      <DependentUpon>ArchivedProjects.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAccount\BQReportMaster.master.cs">
+      <DependentUpon>BQReportMaster.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAccount\EmployeeDetail.aspx.cs">
+      <DependentUpon>EmployeeDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAccount\EmployeeDetail.aspx.designer.cs">
+      <DependentUpon>EmployeeDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAccount\EmployeeDetail_Print.aspx.cs">
+      <DependentUpon>EmployeeDetail_Print.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAccount\EmployeeDetail_Print.aspx.designer.cs">
+      <DependentUpon>EmployeeDetail_Print.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAccount\FiscalSummary.aspx.cs">
+      <DependentUpon>FiscalSummary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAccount\FiscalSummary.aspx.designer.cs">
+      <DependentUpon>FiscalSummary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAccount\MyProjects.aspx.cs">
+      <DependentUpon>MyProjects.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAccount\MyProjects.aspx.designer.cs">
+      <DependentUpon>MyProjects.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAccount\MyProjects_Print.aspx.cs">
+      <DependentUpon>MyProjects_Print.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAccount\MyProjects_Print.aspx.designer.cs">
+      <DependentUpon>MyProjects_Print.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAccount\MySchedule.aspx.cs">
+      <DependentUpon>MySchedule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAccount\MySchedule.aspx.designer.cs">
+      <DependentUpon>MySchedule.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAccount\MySchedule_Print.aspx.cs">
+      <DependentUpon>MySchedule_Print.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAccount\MySchedule_Print.aspx.designer.cs">
+      <DependentUpon>MySchedule_Print.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAccount\OfficeSummary.aspx.cs">
+      <DependentUpon>OfficeSummary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAccount\OfficeSummary.aspx.designer.cs">
+      <DependentUpon>OfficeSummary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAccount\PageTemplate.master.cs">
+      <DependentUpon>PageTemplate.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAccount\ProjectDetail.aspx.cs">
+      <DependentUpon>ProjectDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAccount\ProjectDetail.aspx.designer.cs">
+      <DependentUpon>ProjectDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAccount\ProjectDetailAdd.aspx.cs">
+      <DependentUpon>ProjectDetailAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAccount\ProjectDetailAdd.aspx.designer.cs">
+      <DependentUpon>ProjectDetailAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAccount\ProjectDetailEdit.aspx.cs">
+      <DependentUpon>ProjectDetailEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAccount\ProjectDetailEdit.aspx.designer.cs">
+      <DependentUpon>ProjectDetailEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAccount\ProjectDetail_Print.aspx.cs">
+      <DependentUpon>ProjectDetail_Print.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAccount\ProjectDetail_Print.aspx.designer.cs">
+      <DependentUpon>ProjectDetail_Print.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAccount\Projects.aspx.cs">
+      <DependentUpon>Projects.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAccount\Projects.aspx.designer.cs">
+      <DependentUpon>Projects.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAccount\ProjectsPrint.aspx.cs">
+      <DependentUpon>ProjectsPrint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAccount\ProjectsPrint.aspx.designer.cs">
+      <DependentUpon>ProjectsPrint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAccount\Projects_PrintList.aspx.cs">
+      <DependentUpon>Projects_PrintList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAccount\Projects_PrintList.aspx.designer.cs">
+      <DependentUpon>Projects_PrintList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAccount\_BlankPage.aspx.cs">
+      <DependentUpon>_BlankPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAccount\_TemplateMaster.master.cs">
+      <DependentUpon>_TemplateMaster.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAdmin\AllEngineers.aspx.cs">
+      <DependentUpon>AllEngineers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAdmin\AllEngineers.aspx.designer.cs">
+      <DependentUpon>AllEngineers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAdmin\AllEngineersPrint.aspx.cs">
+      <DependentUpon>AllEngineersPrint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAdmin\AllEngineersPrint.aspx.designer.cs">
+      <DependentUpon>AllEngineersPrint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAdmin\AllEngineers_PrintList.aspx.cs">
+      <DependentUpon>AllEngineers_PrintList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAdmin\AllEngineers_PrintList.aspx.designer.cs">
+      <DependentUpon>AllEngineers_PrintList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAdmin\ClientAdd.aspx.cs">
+      <DependentUpon>ClientAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAdmin\ClientAdd.aspx.designer.cs">
+      <DependentUpon>ClientAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAdmin\ClientEdit.aspx.cs">
+      <DependentUpon>ClientEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAdmin\ClientEdit.aspx.designer.cs">
+      <DependentUpon>ClientEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAdmin\Clients.aspx.cs">
+      <DependentUpon>Clients.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAdmin\Clients.aspx.designer.cs">
+      <DependentUpon>Clients.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAdmin\ClientTypes.aspx.cs">
+      <DependentUpon>ClientTypes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAdmin\ClientTypes.aspx.designer.cs">
+      <DependentUpon>ClientTypes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAdmin\EditEmployees.aspx.cs">
+      <DependentUpon>EditEmployees.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAdmin\EditEmployees.aspx.designer.cs">
+      <DependentUpon>EditEmployees.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAdmin\EmployeeAdd.aspx.cs">
+      <DependentUpon>EmployeeAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAdmin\EmployeeAdd.aspx.designer.cs">
+      <DependentUpon>EmployeeAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAdmin\EmployeeDetail.aspx.cs">
+      <DependentUpon>EmployeeDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAdmin\EmployeeDetail.aspx.designer.cs">
+      <DependentUpon>EmployeeDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAdmin\EmployeeDetail_Print.aspx.cs">
+      <DependentUpon>EmployeeDetail_Print.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAdmin\EmployeeDetail_Print.aspx.designer.cs">
+      <DependentUpon>EmployeeDetail_Print.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAdmin\EmployeeEdit.aspx.cs">
+      <DependentUpon>EmployeeEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAdmin\EmployeeEdit.aspx.designer.cs">
+      <DependentUpon>EmployeeEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAdmin\Employees.aspx.cs">
+      <DependentUpon>Employees.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAdmin\Employees.aspx.designer.cs">
+      <DependentUpon>Employees.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAdmin\EmployeeTypes.aspx.cs">
+      <DependentUpon>EmployeeTypes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAdmin\EmployeeTypes.aspx.designer.cs">
+      <DependentUpon>EmployeeTypes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAdmin\FeeStructures.aspx.cs">
+      <DependentUpon>FeeStructures.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAdmin\FeeStructures.aspx.designer.cs">
+      <DependentUpon>FeeStructures.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAdmin\MyAdmin.aspx.cs">
+      <DependentUpon>MyAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAdmin\MyAdmin.aspx.designer.cs">
+      <DependentUpon>MyAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAdmin\OfficeSummary.aspx.cs">
+      <DependentUpon>OfficeSummary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAdmin\OfficeSummary.aspx.designer.cs">
+      <DependentUpon>OfficeSummary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAdmin\Phases.aspx.cs">
+      <DependentUpon>Phases.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAdmin\Phases.aspx.designer.cs">
+      <DependentUpon>Phases.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAdmin\ProjectDetail.aspx.cs">
+      <DependentUpon>ProjectDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAdmin\ProjectDetail.aspx.designer.cs">
+      <DependentUpon>ProjectDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAdmin\ProjectDetailAdd.aspx.cs">
+      <DependentUpon>ProjectDetailAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAdmin\ProjectDetailAdd.aspx.designer.cs">
+      <DependentUpon>ProjectDetailAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAdmin\ProjectDetailEdit.aspx.cs">
+      <DependentUpon>ProjectDetailEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAdmin\ProjectDetailEdit.aspx.designer.cs">
+      <DependentUpon>ProjectDetailEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAdmin\ProjectDetail_Print.aspx.cs">
+      <DependentUpon>ProjectDetail_Print.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAdmin\ProjectDetail_Print.aspx.designer.cs">
+      <DependentUpon>ProjectDetail_Print.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAdmin\Projects.aspx.cs">
+      <DependentUpon>Projects.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAdmin\Projects.aspx.designer.cs">
+      <DependentUpon>Projects.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAdmin\ProjectsPrint.aspx.cs">
+      <DependentUpon>ProjectsPrint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAdmin\ProjectsPrint.aspx.designer.cs">
+      <DependentUpon>ProjectsPrint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAdmin\ProjectStatus.aspx.cs">
+      <DependentUpon>ProjectStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAdmin\ProjectStatus.aspx.designer.cs">
+      <DependentUpon>ProjectStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAdmin\Projects_PrintList.aspx.cs">
+      <DependentUpon>Projects_PrintList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAdmin\Projects_PrintList.aspx.designer.cs">
+      <DependentUpon>Projects_PrintList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAdmin\_BlankPage.aspx.cs">
+      <DependentUpon>_BlankPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAdmin\_BlankPage.aspx.designer.cs">
+      <DependentUpon>_BlankPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAdmin\_GlobalUtility.ascx.cs">
+      <DependentUpon>_GlobalUtility.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAdmin\_TemplateMaster.master.cs">
+      <DependentUpon>_TemplateMaster.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAdmin\_TemplateMasterNoSub.master.cs">
+      <DependentUpon>_TemplateMasterNoSub.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test.aspx.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\EditableEngineerList.ascx.cs">
+      <DependentUpon>EditableEngineerList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\EditableEngineerList.ascx.designer.cs">
+      <DependentUpon>EditableEngineerList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\EditableEngineerProjectList.ascx.cs">
+      <DependentUpon>EditableEngineerProjectList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\EditableEngineerProjectList.ascx.designer.cs">
+      <DependentUpon>EditableEngineerProjectList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\EngineerList.ascx.cs">
+      <DependentUpon>EngineerList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\EngineerList.ascx.designer.cs">
+      <DependentUpon>EngineerList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ProjectList.ascx.cs">
+      <DependentUpon>ProjectList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ProjectList.ascx.designer.cs">
+      <DependentUpon>ProjectList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ReportClientsGrid.ascx.cs">
+      <DependentUpon>ReportClientsGrid.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ReportClientsGrid.ascx.designer.cs">
+      <DependentUpon>ReportClientsGrid.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ReportPICsGrid.ascx.cs">
+      <DependentUpon>ReportPICsGrid.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ReportPICsGrid.ascx.designer.cs">
+      <DependentUpon>ReportPICsGrid.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ReportPMsGrid.ascx.cs">
+      <DependentUpon>ReportPMsGrid.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ReportPMsGrid.ascx.designer.cs">
+      <DependentUpon>ReportPMsGrid.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ReportProjectsGrid.ascx.cs">
+      <DependentUpon>ReportProjectsGrid.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Old_App_Code\BillQuickProject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Old_App_Code\clsGeneral.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HoursBox\HourBox.ascx.cs">
+      <DependentUpon>HourBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HoursBox\picker1.xcf.exclude" />
+    <None Include="images\favicon.ico2" />
+    <None Include="images\favicon.ico3" />
+    <None Include="images\favorite.xcf" />
+    <None Include="Properties\PublishProfiles\KPFFDeploy.pubxml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="licenses.licx" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51367</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

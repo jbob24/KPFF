@@ -1,0 +1,282 @@
+/* 
+
+	contains infragistics web grid styles
+
+*/
+
+.TestCSS { color:Green; background-color:Fuchsia;}
+
+.FrameStyle
+{
+	border-collapse: collapse;
+	font-family: Verdana, Sans-Serif;
+	/* background-color: #ece9d8; */
+	border-width: 0px;
+}
+
+.HeaderStyle
+{
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	border: solid 1px #ffffff;
+	padding: 3px;
+	background-color: #000066;
+	cursor:pointer;
+}
+
+.HeaderStyle a
+{
+	color: #FFFFFF;	
+}
+
+.HeaderStyle a:visited
+{
+	color: #FFFFFF;
+}
+
+
+.WeekHeaderStyle
+{
+	color: #FFFFFF;
+	font-size: 10px;
+	font-weight: bold;
+	border: solid 1px #ffffff;
+	padding: 3px;
+	background-color: #000066;
+	cursor:pointer;
+}
+
+.FooterStyle
+{
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	border: solid 1px #ffffff;
+	padding: 3px;
+	background-color: #000066;
+	cursor:pointer;
+}
+
+.RowStyle 
+{
+	background-color: #FFFFFF;
+	color: #000066;
+	font-size: 12px;
+	font-weight: bold;
+	border: solid 1px #666699;
+	padding: 3px;
+}
+
+.RowStyle a
+{
+	color:#000066;
+}
+
+.WeekCellStyle 
+{
+	background-color: #FFFFFF;
+	color: #000066;
+	font-size: 12px;
+	font-weight: bold;
+	border: solid 1px #666699;
+	padding: 3px;
+}
+
+.AlternateRowStyle 
+{
+	background-color: #D1D8F3;
+	color: #000066;
+	font-size: 12px;
+	font-weight: bold;
+	border: solid 1px #666699;
+	padding: 3px;
+}
+
+.AlternateRowStyle a
+{
+	color:#000066;
+}
+
+.WeekAlternateCellStyle 
+{
+	background-color: #D1D8F3;
+	color: #000066;
+	font-size: 12px;
+	font-weight: bold;
+	border: solid 1px #666699;
+	padding: 3px;
+}
+
+.WeekCurMondayCellStyle
+{
+	background-color: #D4CABF;
+	color: #000066;
+	font-size: 12px;
+	font-weight: bold;
+	border: solid 1px #666699;
+	padding: 3px;
+	
+}
+
+.SelectedRowStyle
+{
+	background-color: #D4CABF;
+}
+
+.SelectedCellStyle
+{
+	background-color: #D4CABF;
+}
+
+.RowSelectorStyle
+{
+	background-color: #ffffff;
+}
+
+.ChildHeaderStyle
+{
+	color: #ffffff;
+	font-size: 12px;
+	border: solid 1px #ffffff;
+	padding: 3px;
+	font-weight: bold;
+	background-color: #BDAA94;
+	cursor: pointer;
+}
+
+.ChildWeekHeaderStyle
+{
+	color: #ffffff;
+	font-size: 10px;
+	border: solid 1px #ffffff;
+	padding: 3px;
+	font-weight: bold;
+	background-color: #BDAA94;
+	cursor: pointer;
+}
+.ChildCurWeekHeaderStyle
+{
+	color: #000000;
+	font-size: 10px;
+	border: solid 1px #ffffff;
+	padding: 3px;
+	font-weight: bold;
+	background-color: #ffffff;
+}
+
+.ChildFooterStyle
+{
+	color: #ffffff;
+	font-size: 12px;
+	border: solid 1px #ffffff;
+	padding: 3px;
+	font-weight: bold;
+	background-color: #BDAA94;
+	height: 20px;
+}
+
+.ChildCurWeekFooterStyle
+{
+	color: #000000;
+	font-size: 10px;
+	border: solid 1px #ffffff;
+	padding: 3px;
+	font-weight: bold;
+	background-color: #ffffff;
+}
+
+.ChildRowStyle 
+{
+	background-color: #FFFFFF;
+	color: #000066;
+	font-size: 12px;
+	font-weight: bold;
+	border: solid 1px #666699;
+	padding: 3px;
+}
+
+.ChildRowStyle a
+{	
+	color: #000066;
+}
+
+.ChildAlternateRowStyle 
+{
+	/* background-color: #ffffff;
+	color: #000000; */
+	background-color: #D1D8F3;
+	color: #000066;
+	font-size: 12px;
+	font-weight: bold;
+	border: solid 1px #666699;
+	padding: 3px;
+}
+
+.ChildAlternateRowStyle a
+{	
+	color: #000066;
+}
+
+.ChildSelectedRowStyle 
+{
+	background-color: #CDCDCD;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	border: solid 1px #666699;
+	padding: 3px;
+}
+
+.AddNewBoxStyle
+{
+	 background-color: #d4d0c8;
+	 font-size: 10px; 
+	 cursor:pointer;
+}
+
+.RowExpAreaStyle
+{
+	background-color: #f5f5f5;
+	font-size: 10px;
+	font-weight: bold
+}
+
+.PagerStyle
+{
+	font-size: 10px;
+}
+
+
+.CellUnderSyle
+{
+	background-color: #86ABE5;
+	border: solid 1px #666699;
+	font-size: 12px;
+	font-weight: bold;	
+}
+
+.CellScheduledStyle
+{
+	background-color: #FFFFFF;
+	border: solid 1px #666699;
+	font-size: 12px;
+	font-weight: bold;	
+}
+
+.Cell1025Style
+{
+	background-color: #FFFE9E;
+	border: solid 1px #666699;
+	font-size: 12px;
+	font-weight: bold;	
+}
+
+
+.CellOver25Style 
+{ 
+	background-color: #FF9797;
+	border: solid 1px #666699;
+	font-size: 12px;
+	font-weight: bold;	
+}
